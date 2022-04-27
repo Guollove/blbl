@@ -1,0 +1,188 @@
+
+
+/* 整个页面div */
+#Gshang{
+    position: absolute;
+    width: 100%;
+    
+}
+/* 导航栏 */
+#daohang{
+    position:relative;
+    z-index: 1002;
+    /* 宽度 */
+    width: 100%;
+    /* 高度 */
+    height: 64px;
+    /* 外边距 */
+    margin: 0;
+    /* 内边距 */
+    padding: 0 24px;
+    /* 背景颜色 */
+    /* background-color:white;white */
+    background: rgba(0, 153, 145, 0.1);
+    /* 阴影 */
+    box-shadow: 0px 0px 10px #888888;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+#input{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    background-color: #f1f2f3;
+    margin:auto;
+    text-align: center;
+    font-size: 13px;
+    line-height: 26px;
+    border: 1px solid #888888;
+    border-radius: 6px;
+    align-items: center;
+}
+#input input{
+
+    margin: auto 10px;
+    width: 400px;
+    height: 30px;
+    background-color: #f6f7f8;
+    border: 1px solid #f6f7f8;
+    
+}
+
+/* 导航后面的背景 */
+#daohangbeijing{
+    height: 100px;
+    margin:auto;
+    transform: translateY(-50%);
+    object-fit: cover;
+    object-position: center center;
+    image-rendering: pixelated;
+    transition-property: top;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+
+}
+/* 导航栏里的ul 左边 */
+.left-entry{
+    margin: auto 0;
+    width: 30%;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.left-entry a{
+    color:white;
+    font-size: 13px;
+}
+/* 导航栏里的ul 右边 */
+.right-entry{
+    
+    margin: auto 0;
+    align-items: center;
+    width: 30%;
+    display: flex;
+    justify-content:space-between;
+}
+.right-entry a{
+    color:white;
+    font-size: 13px;
+
+}
+/* 中间菜单的div */
+.bili-header__channel{
+    width: 100%;
+    height: 100px;
+    
+
+    background-color: white;
+    position: relative;
+    display: flex;
+    padding: 0 56px;
+}
+
+/* 中间菜单的订阅栏 */
+.channel-icons{
+    margin:auto 0 ;
+    margin-right: 4px;
+    width:168px;
+    height: 64px;
+    display: flex;
+    background-color: white;
+}
+.channel-icons a{
+    line-height: 34px;
+    text-align: center;
+    color: #61666D;
+}
+
+/* 中间菜单的订阅栏下的内容 */
+.channel-icons__item{
+    width: 40px;
+    height: 64px;
+    margin: 0 16px 0 0;
+}
+/* 中间菜单的右边总分栏 */
+.right-channel-container{
+    width: 1063px;
+    height: 66px;
+    margin: auto 0;
+    display: flex;
+
+}
+/* 中间菜单的右边分栏 */
+.channel-items__left{
+    width: 821px;
+    height: 66;
+    padding:0  20px 0 0;
+    border-right: 1px solid #888888;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.channel-items__left a{
+    width: 84px;
+    height: 28px;
+    background-color: #f6f7f8;
+    margin:auto;
+    text-align: center;
+    font-size: 13px;
+    line-height: 26px;
+    border: 1px solid rgb(241 242 243);
+    border-radius: 6px;
+    color: #61666D;
+}
+
+/* 中间菜单的右边总分栏 */
+.channel-items__right{
+    height: 66px;
+    width: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+.channel-items__right a{
+    color: #61666D;
+    width: 70px;
+    height: 28px;
+    /* background-color: #f6f7f8; */
+    margin:auto;
+    text-align: center;
+    font-size: 13px;
+    line-height: 26px;
+    /* border: 1px solid #888888; */
+    border-radius: 6px; 
+}
+a{text-decoration:none}
+#xia{
+position:absolute;
+    margin: 300px;
+}
+#xia h1{
+    font-size: 100px;
+}
